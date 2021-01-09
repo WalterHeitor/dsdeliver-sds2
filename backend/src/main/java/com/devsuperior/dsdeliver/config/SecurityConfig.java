@@ -37,7 +37,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 	/**
 	 * liberação para que o frontend acesse a aplicação.
-	 * @return
+	 * @return classe de configuraçao
 	 */
 	@Bean
 	CorsConfigurationSource corsConfigurationSource() {
